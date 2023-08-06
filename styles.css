@@ -96,17 +96,20 @@ body{
 
 .randominfo{
     display: flex;
-    align-items: flex-start;
+    align-items:baseline;
     color: red;
+    border: 4px solid black;
 }
 
 .box1, .box2, .box3, .box4{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: aquamarine;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border: 4px solid pink;
-    gap: 8px;
+    margin: 40px;
 }
 
 .quote{
