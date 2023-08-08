@@ -61,18 +61,18 @@ button{
 }
 
 .links{
-    width: 75%;
+    width: 55%;
     height: 90px;
     background-color:#1F2937;
 }
 
 .linkstxt{
-    margin-left: 330px;
+    margin-left: 150px;
     color:#E5E7EB;
 }
 
 .placeholder{
-    width: 75%;
+    width: 55%;
     height: 260px;
     background-color: rgb(141, 133, 133);
     color:aliceblue;
@@ -80,7 +80,7 @@ button{
 }
 
 .placeholdertxt{
-    margin: 100px;
+    margin: 120px;
 }
 
 .info{
@@ -114,18 +114,37 @@ button{
 
 .subtexts{
     border: 4px solid red;
-    margin-top: 45px;
     display: flex;
-    height: 200px;
+    height: 350px;
     width: 100%;
 }
 
-.subtext1, .subtext2, .subtext3, .subtext4{
+.subtext1{
     flex: 1;
-    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
     height: 200px;
     width: 100px;
-    color: #3882F6;
+    color: #ffffff;
     border: #3882F6 solid 4px;
     border-radius: 15px;
+}
+
+.box{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.subtext1{
+    flex: 1 1 70%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.subtext-a{
+    flex: 1 1 30%;
+    background-color: rgb(255, 255, 255);
+
 }
