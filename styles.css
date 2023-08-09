@@ -31,6 +31,7 @@ body{
     background-color:#1F2937;
     color: #E5E7EB;
     margin-left: 350px;
+    margin-top: 20px;
     font-size: 18px;
     font-weight: 900;
 }
@@ -39,7 +40,7 @@ body{
     width: 45%;
     height: 230px;
     background-color: rgb(221, 235, 226);
-    margin-bottom: 200px;
+    margin-bottom: 220px;
     margin-left: 350px;
     background-color: #1F2937;
 }
@@ -54,9 +55,13 @@ body{
     color:#E5E7EB;
 }
 
-button{
+.firstbutton{
     background-color: #3882F6;
-    color: rgb(255, 255, 255);
+    color: #e6e6e6;
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
 }
 
 .links{
@@ -203,8 +208,10 @@ button{
     font-weight: 900;
 }
 
-button{
+.footerbutton{
     border-radius: 5px;
+    color: #E5E7EB;
+    background-color: #3882F6;
     border: 2px solid white;
     height: 40px;
     width: 120px;
