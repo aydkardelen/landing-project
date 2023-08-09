@@ -1,15 +1,15 @@
-body{
+body {
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.hero{
+.hero {
     display: flex;
     height: 600px;
     width: 100%;
 }
 
-.left{
+.left {
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -17,7 +17,7 @@ body{
     justify-content: space-between;
 }
 
-.right{
+.right {
     display: flex;
     flex: 1;
     justify-content: space-between;
@@ -25,10 +25,10 @@ body{
     background-color: #1F2937;
 }
 
-.logo{
+.logo {
     width: 100%;
     height: 90px;
-    background-color:#1F2937;
+    background-color: #1F2937;
     color: #E5E7EB;
     margin-left: 350px;
     margin-top: 20px;
@@ -36,7 +36,7 @@ body{
     font-weight: 900;
 }
 
-.description{
+.description {
     width: 45%;
     height: 230px;
     background-color: rgb(221, 235, 226);
@@ -45,67 +45,69 @@ body{
     background-color: #1F2937;
 }
 
-.desctitle{
+.desctitle {
     color: #F9FAF8;
     font-size: 48px;
 }
 
-.subtext{
+.subtext {
     font-size: 18px;
-    color:#E5E7EB;
+    color: #E5E7EB;
 }
 
-.firstbutton{
+.firstbutton {
     background-color: #3882F6;
     color: #e6e6e6;
     border: 2px solid #3882F6;
     border-radius: 15px;
     width: 200px;
     height: 50px;
+    font-size: 18px;
+    font-weight: 900;
 }
 
-.links{
+.links {
     width: 55%;
     height: 90px;
-    background-color:#1F2937;
+    background-color: #1F2937;
 }
 
-.linkstxt{
+.linkstxt {
     margin-left: 150px;
-    color:#E5E7EB;
+    color: #E5E7EB;
 }
 
-.placeholder{
+.placeholder {
     width: 55%;
     height: 260px;
     background-color: rgb(141, 133, 133);
-    color:aliceblue;
+    color: aliceblue;
     margin-bottom: 140px;
 }
 
-.placeholdertxt{
+.placeholdertxt {
     margin: 120px;
 }
 
-.info{
+.info {
     display: flex;
     justify-content: center;
     height: 550px;
 }
 
-.infodiv{
+.infodiv {
     width: 60%;
     margin-top: 30px;
 }
 
-.randominfo{
+.randominfo {
     flex: 1;
     display: flex;
     justify-content: center;
     height: 35px;
 }
 
-.randominfotxt{
+.randominfotxt {
     flex: 1;
     color: rgb(0, 0, 0);
     font-size: 36px;
@@ -113,13 +115,13 @@ body{
     margin-left: 320px;
 }
 
-.subtexts{
+.subtexts {
     display: flex;
     height: 350px;
     width: 100%;
 }
 
-.subtext1{
+.subtext1 {
     height: 200px;
     width: 200px;
     border: 4px solid #3882F6;
@@ -128,14 +130,14 @@ body{
     gap: 5px;
 }
 
-.box{
+.box {
     display: flex;
     flex: 1;
     flex-direction: column;
     gap: 15px;
 }
 
-.quotesection{
+.quotesection {
     display: flex;
     justify-content: center;
     background-color: #E5E7EB;
@@ -143,13 +145,13 @@ body{
     flex-direction: column;
 }
 
-.container{
+.container {
     flex: 1;
     display: flex;
     flex-direction: column;
 }
 
-.quote{
+.quote {
     color: #1F2937;
     flex: 1;
     font-size: 36px;
@@ -160,7 +162,7 @@ body{
     font-style: italic;
 }
 
-.author{
+.author {
     flex: 1;
     font-weight: bolder;
     font-size: 18px;
@@ -169,14 +171,14 @@ body{
     font-weight: 900;
 }
 
-.callaction{
+.callaction {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     height: 350px;
 }
 
-.signdiv{
+.signdiv {
     display: flex;
     flex-direction: column;
     margin-top: 100px;
@@ -188,7 +190,7 @@ body{
 }
 
 
-.signcontainer{
+.signcontainer {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -197,22 +199,33 @@ body{
     height: 100%;
 }
 
-.signproduct{
+.signproduct {
     display: flex;
     gap: 200px;
     margin-right: 3px;
 }
 
-.reminder{
+.reminder {
     font-size: 24px;
     font-weight: 900;
 }
 
-.footerbutton{
+.footerbutton {
     border-radius: 5px;
     color: #E5E7EB;
     background-color: #3882F6;
     border: 2px solid white;
     height: 40px;
     width: 120px;
+}
+
+.footer {
+    height: 80px;
+    width: 100%;
+    background-color: #1F2937;
+}
+
+.footertxt {
+    color: #E5E7EB;
+    margin-left: 45%;
 }
